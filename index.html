@@ -3,85 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Treinos e Dietas - Apenas R$15</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>AcademiaFit - Transforme Seu Corpo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100 text-gray-900">
-  <!-- Hero -->
-  <header class="relative bg-gradient-to-r from-green-500 to-blue-500 text-white text-center p-12">
-    <h1 class="text-4xl font-bold mb-4">Transforme seu Corpo</h1>
-    <p class="text-lg mb-6">Treinos e dietas personalizados por apenas <span class="font-extrabold">R$15</span></p>
-    <a href="https://wa.me/5594992665231" class="bg-white text-green-600 font-bold px-8 py-3 rounded-full shadow-lg hover:bg-gray-200 transition">
-      Quero meu plano!
-    </a>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <img src="images/abs-hero.jpg" alt="Abdômen definido" class="hero-img">
+    <div class="hero-text">
+      <h1>Transforme seu corpo por apenas R$15</h1>
+      <p>Treinos e dietas prontas para resultados reais.</p>
+      <a href="#planos" class="btn btn-highlight">Quero Começar</a>
+    </div>
   </header>
 
   <!-- Benefícios -->
-  <main class="max-w-5xl mx-auto p-6">
-    <section class="grid md:grid-cols-2 gap-6 my-12 items-center">
-      <div>
-        <h2 class="text-2xl font-semibold mb-4">O que você vai receber</h2>
-        <ul class="list-disc pl-5 space-y-2">
-          <li>Treinos personalizados para seu objetivo</li>
-          <li>Plano alimentar simples e acessível</li>
-          <li>Resultados reais com baixo investimento</li>
-        </ul>
+  <section class="benefits">
+    <h2>Por que escolher nosso plano?</h2>
+    <div class="benefit-list">
+      <div class="benefit">
+        <h3>💪 Treinos Eficientes</h3>
+        <p>Exercícios rápidos e práticos para todos os níveis.</p>
       </div>
-      <div>
-        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" alt="Pessoa treinando" class="rounded-lg shadow-lg">
+      <div class="benefit">
+        <h3>🥗 Dieta Simples</h3>
+        <p>Cardápio fácil de seguir sem passar fome.</p>
       </div>
-    </section>
+      <div class="benefit">
+        <h3>⚡ Resultados Reais</h3>
+        <p>Planos testados que geram resultado em poucas semanas.</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Depoimentos -->
-    <section class="my-12">
-      <h2 class="text-2xl font-semibold text-center mb-6">Resultados de Clientes</h2>
-      <div class="grid md:grid-cols-3 gap-6">
-        <div class="bg-white p-6 rounded-2xl shadow-md">
-          <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&w=400&q=80" alt="Cliente feliz" class="rounded-full w-20 h-20 mx-auto mb-4">
-          <p>"Perdi 8kg em 2 meses com esse plano! Simples e eficiente."</p>
-          <span class="text-sm text-gray-500">– João, 28 anos</span>
-        </div>
-        <div class="bg-white p-6 rounded-2xl shadow-md">
-          <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=400&q=80" alt="Cliente feliz" class="rounded-full w-20 h-20 mx-auto mb-4">
-          <p>"Nunca pensei que fosse tão barato ter algo tão bem feito."</p>
-          <span class="text-sm text-gray-500">– Carla, 34 anos</span>
-        </div>
-        <div class="bg-white p-6 rounded-2xl shadow-md">
-          <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80" alt="Cliente feliz" class="rounded-full w-20 h-20 mx-auto mb-4">
-          <p>"O suporte e as dicas fizeram toda a diferença para mim."</p>
-          <span class="text-sm text-gray-500">– Lucas, 22 anos</span>
-        </div>
+  <!-- Depoimentos -->
+  <section class="testimonials">
+    <h2>Resultados de quem já começou</h2>
+    <div class="testimonial-container">
+      <div class="testimonial">
+        <img src="images/jovem1.jpg" alt="Cliente feliz" class="testimonial-img">
+        <p>"Em poucas semanas já senti diferença, treino simples e rápido."</p>
+        <span>- Lucas, 16 anos</span>
       </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="my-12">
-      <h2 class="text-2xl font-semibold text-center mb-6">Perguntas Frequentes</h2>
-      <div class="space-y-4">
-        <details class="bg-white p-4 rounded-lg shadow">
-          <summary class="font-semibold cursor-pointer">Como recebo meu treino e dieta?</summary>
-          <p class="mt-2 text-gray-700">Você recebe tudo no WhatsApp ou e-mail após o pagamento.</p>
-        </details>
-        <details class="bg-white p-4 rounded-lg shadow">
-          <summary class="font-semibold cursor-pointer">Funciona para qualquer objetivo?</summary>
-          <p class="mt-2 text-gray-700">Sim, você pode escolher emagrecimento, ganho de massa ou manutenção.</p>
-        </details>
+      <div class="testimonial">
+        <img src="images/jovem2.jpg" alt="Cliente feliz" class="testimonial-img">
+        <p>"Nunca consegui seguir uma dieta, agora ficou fácil."</p>
+        <span>- Ana, 17 anos</span>
       </div>
-    </section>
+      <div class="testimonial">
+        <img src="images/jovem3.jpg" alt="Cliente feliz" class="testimonial-img">
+        <p>"Achei que não ia funcionar, mas já perdi 3kg em 1 mês!"</p>
+        <span>- Pedro, 18 anos</span>
+      </div>
+    </div>
+  </section>
 
-    <!-- Call to Action -->
-    <section class="bg-gradient-to-r from-green-500 to-blue-500 text-white shadow-lg rounded-2xl p-6 text-center my-12">
-      <h2 class="text-3xl font-bold mb-4">Apenas R$15</h2>
-      <p class="mb-4">Invista em você mesmo e comece hoje!</p>
-      <a href="https://wa.me/5594992665231" class="bg-white text-green-600 font-bold px-6 py-3 rounded-full shadow-lg hover:bg-gray-200 transition">
-        Quero meu plano!
-      </a>
-    </section>
-  </main>
+  <!-- Oferta -->
+  <section id="planos" class="offer">
+    <h2>Plano Completo por Apenas R$15</h2>
+    <p>Receba treino + dieta exclusiva no mesmo dia.</p>
+    <a href="#comprar" class="btn btn-highlight">Comprar Agora</a>
+    <p class="garantia">Pagamento 100% seguro ✅</p>
+  </section>
 
   <!-- Rodapé -->
-  <footer class="text-center text-sm text-gray-600 p-4">
-    © 2025 Treinos & Dietas. Todos os direitos reservados.
+  <footer class="footer">
+    <p>&copy; 2025 AcademiaFit. Todos os direitos reservados.</p>
+    <p>Siga-nos: Instagram | TikTok | YouTube</p>
   </footer>
+
 </body>
 </html>
